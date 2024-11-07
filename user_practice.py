@@ -17,7 +17,7 @@ user1 = Uber('Sam', 'Trares', 'male', 14)
 user1.describe_user()
 user1.greet_user() 
 
-class Uber:
+class Taxi:
     def __init__(self, first_name, last_name, gender, age):
         #initialize first name and last name
         self.first_name = first_name
@@ -36,7 +36,7 @@ user1 = Uber('Connor', 'Smith', 'male', 97)
 user1.describe_user()
 user1.greet_user()
 
-class Uber:
+class Bus:
     def __init__(self, first_name, last_name, gender, age):
         #initialize first name and last name
         self.first_name = first_name
