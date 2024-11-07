@@ -1,4 +1,4 @@
-class Uber:
+class User1:
     def __init__(self, first_name, last_name, gender, age):
         #initialize first name and last name
         self.first_name = first_name
@@ -12,12 +12,12 @@ class Uber:
     def greet_user(self):
         print(f"Hello, {self.first_name} {self.last_name} welcome!")
 
-user1 = Uber('Sam', 'Trares', 'male', 14)
+user1 = User1('Sam', 'Trares', 'male', 14)
 
 user1.describe_user()
 user1.greet_user() 
 
-class Taxi:
+class User2:
     def __init__(self, first_name, last_name, gender, age):
         #initialize first name and last name
         self.first_name = first_name
@@ -31,12 +31,12 @@ class Taxi:
     def greet_user(self):
         print(f"Hello, {self.first_name} {self.last_name} welcome!")
 
-user1 = Uber('Connor', 'Smith', 'male', 97)
+user1 = User2('Connor', 'Smith', 'male', 97)
 
 user1.describe_user()
 user1.greet_user()
 
-class Bus:
+class User3:
     def __init__(self, first_name, last_name, gender, age):
         #initialize first name and last name
         self.first_name = first_name
@@ -50,7 +50,9 @@ class Bus:
     def greet_user(self):
         print(f"Hello, {self.first_name} {self.last_name} welcome!")
 
-user1 = Uber('John', 'Phillips', 'male', 36)
+user1 = User3('John', 'Phillips', 'male', 36)
 
 user1.describe_user()
 user1.greet_user()
+print()
+print()
